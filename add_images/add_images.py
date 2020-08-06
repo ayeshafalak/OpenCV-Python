@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
-img1=cv2.imread('Pictures/flower.jpg')
-img2=cv2.imread('Pictures/Jellyfish.jpg')
+img1=cv2.imread('Chrysanthemum.jpg')
+img2=cv2.imread('Jellyfish.jpg')
 img1=cv2.resize(img1,(512,512))
 img2=cv2.resize(img2,(512,512))
 result=cv2.add(img1,img2);
